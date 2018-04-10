@@ -9,9 +9,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <link rel="stylesheet" type="text/css" href="css/meucss.css">
+        <title>Sessao</title>
     </head>
-    <body>
-        <h1>Hello World!</h1>
+    <body>        
+        <br/><br/>
+    <center>
+        <form method="POST" action="GerarSessao.jsp">
+            Informe um texto: <input type="text" name="nome"/>
+            <br/>
+            <input type="submit" value="Gerar Sessao"/>
+        </form>
+    </center>
     </body>
 </html>
