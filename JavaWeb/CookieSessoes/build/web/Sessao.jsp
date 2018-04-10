@@ -1,7 +1,7 @@
 <%-- 
     Document   : Sessao.jsp
     Created on : 03/04/2018, 19:50:30
-    Author     : internet
+    Authors     : Ivam e Jonathas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

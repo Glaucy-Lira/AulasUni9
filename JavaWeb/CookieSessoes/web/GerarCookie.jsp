@@ -1,7 +1,7 @@
 <%-- 
     Document   : GerarCookie.jsp
     Created on : 03/04/2018, 19:58:06
-    Author     : internet
+    Authors     : Ivam e Jonathas
 --%>
 
 <%@page import="java.net.URLEncoder"%>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : ExibirSessao.jsp
     Created on : 10/04/2018, 20:12:55
-    Author     : internet
+    Authors     : Ivam e Jonathas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

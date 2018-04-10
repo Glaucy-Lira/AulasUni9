@@ -1,7 +1,7 @@
 <%-- 
     Document   : Cookies.jsp
     Created on : 03/04/2018, 19:50:12
-    Author     : internet
+    Authors     : Ivam e Jonathas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

@@ -1,7 +1,7 @@
 <%-- 
     Document   : GerarSessao.jsp
     Created on : 10/04/2018, 19:54:49
-    Author     : internet
+    Authors     : Ivam e Jonathas
 --%>
 <%@page import="java.net.URLEncoder"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

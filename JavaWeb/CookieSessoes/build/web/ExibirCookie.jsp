@@ -1,7 +1,7 @@
 <%-- 
     Document   : ExibirCookie.jsp
     Created on : 03/04/2018, 20:19:05
-    Author     : internet
+    Authors     : Ivam e Jonathas
 --%>
 
 <%@page import="java.net.URLEncoder"%>
