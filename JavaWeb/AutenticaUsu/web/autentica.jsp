@@ -15,6 +15,28 @@
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <jsp:useBean id="login" scope="page" class="io.github.ivamks.autentica.Login" />
+
+        <jsp:setProperty name="login" property="usuario" value="<%=request.getParameter("inputEmail")%>" />
+        <jsp:setProperty name="login" property="senha" value="<%=request.getParameter("inputPassword")%>" />
+        
+        <%
+            String inputEmail = request.getParameter("inputEmail");
+            String inputPassword = request.getParameter("inputPassword");
+            
+            Cookie cookieEmail = new Cookie("inputEmailCookie", inputEmail);
+            response.addCookie(cookieEmail);
+
+            session.setAttribute("usu", inputEmail);
+            session.setAttribute("usupass", inputPassword);
+
+            if (!login.autentica()) {
+                session.setAttribute("loginOK", false);
+                response.sendRedirect("index.html");
+            } else {
+                session.setAttribute("loginOK", true);
+            }
+        %>
+        
     </body>
 </html>
