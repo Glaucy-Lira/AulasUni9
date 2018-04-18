@@ -30,7 +30,7 @@ public class Login {
     }
     
     public boolean autentica(){
-        return true;
+        return (inputEmail.equals("uss@usu") && inputPassword.equals("123"));
     }
     
 }
