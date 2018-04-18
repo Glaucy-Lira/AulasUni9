@@ -17,8 +17,8 @@
     <body>
         <jsp:useBean id="login" scope="page" class="io.github.ivamks.autentica.Login" />
 
-        <jsp:setProperty name="login" property="usuario" value="<%=request.getParameter("inputEmail")%>" />
-        <jsp:setProperty name="login" property="senha" value="<%=request.getParameter("inputPassword")%>" />
+        <jsp:setProperty name="login" property="inputEmail" value="<%=request.getParameter("inputEmail")%>" />
+        <jsp:setProperty name="login" property="inputPassword" value="<%=request.getParameter("inputPassword")%>" />
         
         <%
             String inputEmail = request.getParameter("inputEmail");
