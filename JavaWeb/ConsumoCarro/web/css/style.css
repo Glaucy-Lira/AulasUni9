@@ -1,0 +1,25 @@
+html {
+	height:100%;
+	font:100% sans-serif;
+	background:#eaeaea;}
+body {
+    width:70%;
+	min-height:calc(100% - 2rem - 2px);
+	margin:0 auto;
+	padding:0 2.5% 2rem 2.5%;
+	max-width:50rem;
+	border:1px dotted #ccc;
+	border-radius:0.625rem;
+	box-shadow: 0.3rem 0.4rem 0.5rem #ccc;
+    background:#fff;
+    color:#333;
+}
+.principal {
+	color:#c30;
+	border-bottom:1px solid #999;
+	padding-bottom:0.5rem;
+	text-align:center; 
+	margin: 1.5rem 0;}
+.principal:after {
+	font-size: 1.5rem;
+}
